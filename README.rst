@@ -14,7 +14,7 @@ Task Zero: Setup, Startup, Read Code
      $ cd react-hangman
      $ npm install
 
-3) Start the application:
+3) Start the application::
 
      $ npm Start
 
