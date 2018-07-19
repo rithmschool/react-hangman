@@ -4,6 +4,25 @@ Hangman
 
 A React hangman game exercise.
 
+Task Zero: Setup, Startup, Read Code
+------------------------------------
+
+1) Clone this repo to your computer
+
+2) Install the required packages::
+
+     $ cd react-hangman
+     $ npm install
+
+3) Start the application:
+
+     $ npm Start
+
+4) Play the game. It is functional, but always uses the same word
+   ("apple") as the secret word.
+
+5) Read over the code: there is only one component, ``Hangman``,
+   in ``Hangman.js``.
 
 Task One: # Wrong Guesses
 -------------------------
@@ -40,3 +59,10 @@ Task Four: Add "Restart" Button
 Add a button at the button that will restart the game. This should
 pick a new random word and reset the guessed list and number of 
 wrong guesses.
+
+Additional Ideas
+----------------
+
+- Add a message if the player wins (guesses all the letters)
+
+- Add more CSS styling
